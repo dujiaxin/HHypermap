@@ -83,7 +83,7 @@ pip install -r requirements.txt
 
 Create environment variables:
 
-Open /env/bin/activate in a text edit and copy and paste the lines below to the end (change the lines according to your configuration):
+Open env/bin/activate in a text edit and copy and paste the lines below to the end (change the lines according to your configuration):
 
 ```sh
 export DATABASE_URL=postgres://hypermap:hypermap@localhost:5432/hypermap
@@ -108,7 +108,7 @@ Activate again the virtualenv:
 source env/bin/activate
 ```
 
-Execute migrations
+In HHypermap Execute migrations
 
 ```sh
 python manage.py migrate
